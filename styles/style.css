@@ -1,5 +1,5 @@
 /* Shared styles */
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -10,3 +10,34 @@
 }
 
 /* Styling header section */
+header{
+    border-radius: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.20)), url("../resources/Banner\ Image.png");
+    background-size: cover;
+}
+
+.container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container > h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.container span{
+    display: block;
+}
