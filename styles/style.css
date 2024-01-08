@@ -180,8 +180,15 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-top: 15px;
 }
 
 .gifts > img{
     width: 100%;
 }
+
+.gifts > img:hover{
+    border: 2px solid rgb(146, 79, 34);
+    border-radius: 5px;
+}
+
