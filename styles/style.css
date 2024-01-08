@@ -178,4 +178,10 @@ header{
 
 .giftItem{
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gifts > img{
+    width: 100%;
 }
