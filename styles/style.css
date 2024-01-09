@@ -150,6 +150,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    align-items: center;
     /* gap: 20px; */
 }
 
@@ -230,9 +231,12 @@ h4 > span{
 .special > p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 25px;
+    width: 113%;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .specialText > h3{
@@ -242,7 +246,7 @@ h4 > span{
     font-weight: 900;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 65%;
+    width: 73%;
 }
 
 .specialP{
@@ -251,7 +255,68 @@ h4 > span{
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
-    width: 74%;
+    width: 84%;
+}
+
+/* Styling Functional Section */
+.functional{
+    margin-top: 100px;
+}
+
+#functionalP{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.functionalText > h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.functionalText > h1 > span{
+    color: #F00;
+}
+
+.functionalP{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling Functional Images */
+.functionalImg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#firstImg{
+    width: 100%;
+    margin-top: 64px;
+}
+
+#secondImg{
+        margin-top: 0px;
+        width: 260%;
+}
+
+#thirdImg{
+    width: 100%;
+    margin-right: 275px;
 }
 
 /* Styling Gift Section */
